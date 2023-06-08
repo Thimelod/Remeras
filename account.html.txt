@@ -1,0 +1,18 @@
+<html>
+
+<head>
+	<title>Mi primer pagina </title> <!--poner titulo a pestaña-->
+</head>
+
+<body>
+	<h1>Hola Mundo, Viva Messi<h1>
+		<p>
+			Lorem
+
+		</p>
+		<a href="account.html">Ir a mi cuenta </a>
+		<a href="index.html"> volver
+			
+		</a>
+	</body>
+</html>

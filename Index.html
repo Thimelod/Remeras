@@ -13,6 +13,23 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 2px;
     }
+    .my-button{
+      display: initial;
+      padding: 10px 20px;
+      font-size: large;
+      text-align: center;
+      background-color: whitesmoke;
+      color: #1E1E1E;
+      border-radius: 4px;
+      border: navajowhite;
+      cursor: pointer;
+      transition: background-color 0.3 ease;
+    }
+    .my-button:hover{
+      background-color:black;
+      color: white;
+      text-decoration: underline;
+    }
     .grid-item{
       background-color: #641E16;
       padding: 20px;
@@ -26,22 +43,29 @@
     
     h1 {
       text-align: center;
+      font-size: xx-large;
     }
     
     .producto {
       display: flex;
-      align-items: center;
+      align-items: left;
       margin-bottom: 20px;
     }
     
     .producto img {
       width: 300px;
-      margin-right: 300px;
+      margin-right: 20px;
     }
     
-    .producto .descripcion {
-      flex: 1;
+    .producto h2 {
+      font-size: x-large;
+      text-align: left;
     }
+    .p{
+      font-size: large;
+      text-align: left;
+    }
+
 
   </style>
 </head>
@@ -57,9 +81,11 @@
   <div class="producto">
     <img src="remera1.jpg" alt="Remera 1">
     <div class="descripcion">
-      <h2>Remera de manga corta</h2>
-      <p>Precio: $20</p>
-      <button>Agregar al carrito</button>
+      <h1>Remera de manga corta</h1>
+      <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
+      <p><b> AR $20 </b></p>
+      <button class="my-button">Agregar al carrito</button>
     </div>
   </div>
 </div>
@@ -67,7 +93,8 @@
   <div class="producto">
     <img src="remera2.jpg" alt="Remera 2">
     <div class="descripcion">
-      <h2>Remera de manga larga</h2>
+      <h1>Remera de manga larga</h1>
+      <h2>(remera de tela, 20% clonasepananananna)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -77,7 +104,9 @@
   <div class="producto">
     <img src="remera3.jpg" alt="Remera 3">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -87,7 +116,9 @@
   <div class="producto">
     <img src="remera4.jpg" alt="Remera 4">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -97,7 +128,9 @@
   <div class="producto">
     <img src="remera5.jpg" alt="Remera 5">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -107,7 +140,9 @@
   <div class="producto">
     <img src="remera6.jpg" alt="Remera 6">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -117,7 +152,9 @@
   <div class="producto">
     <img src="remera7.jpg" alt="Remera 7">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -127,7 +164,9 @@
   <div class="producto">
     <img src="remera8.jpg" alt="Remera 8">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera de manga larga</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $25</p>
       <button>Agregar al carrito</button>
     </div>
@@ -137,7 +176,9 @@
   <div class="producto">
     <img src="remera9.jpg" alt="Remera 9">
     <div class="descripcion">
+      <h1>Remera de manga larga</h1>
       <h2>Remera estampada</h2>
+      <h2>(remera de tela, 80% de algodon y 20% de seda)</h2>
       <p>Precio: $30</p>
       <button>Agregar al carrito</button>
     </div>
